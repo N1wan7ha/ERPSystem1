@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+/* form{
+    /* box-shadow: 2px 6px 10px; */
+
+
+    #customerForm {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      #reg_customer {
+        
+            width: 100%;
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
+            margin-right: auto;
+            margin-left: auto;
+        
+      }
+
+      #reg_customer {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y)* -1);
+        margin-right: calc(var(--bs-gutter-x)* -.5);
+        margin-left: calc(var(--bs-gutter-x)* -.5);
+    }
+
+    #reg_customer {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        /* padding-left: 0;
+        padding-right: 0; */
+    }
+
+/* Custom styles */
+body {
+    background-color: #212529; /* Dark background for the body */
+}
+
+.table th, .table td {
+    color: white; /* Change the text color to white */
+}
+
+.table thead th {
+    background-color: #343a40; /* Darker background for the header */
+}
+
+.table tbody tr {
+    background-color: #495057; /* Background color for the rows */
+}
+
+h1 a, h2 {
+    color: white; /* Ensure header text is white */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Keep the button blue */
+    border-color: #007bff; /* Keep the button border blue */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
